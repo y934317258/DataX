@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.alibaba.datax</groupId>
@@ -57,7 +58,7 @@
         <module>otsreader</module>
         <module>otsstreamreader</module>
         <module>txtfilereader</module>
-        <module>hdfsreader</module>
+        <!--        <module>hdfsreader</module>-->
         <module>streamreader</module>
         <module>ossreader</module>
         <module>ftpreader</module>
@@ -78,7 +79,7 @@
         <module>odpswriter</module>
         <module>txtfilewriter</module>
         <module>ftpwriter</module>
-        <module>hdfswriter</module>
+        <!--        <module>hdfswriter</module>-->
         <module>streamwriter</module>
         <module>otswriter</module>
         <module>oraclewriter</module>
@@ -100,7 +101,7 @@
         <module>gdbwriter</module>
         <module>cassandrawriter</module>
         <module>clickhousewriter</module>
-        <module>oscarwriter</module>
+        <!--        <module>oscarwriter</module>-->
         <module>oceanbasev10writer</module>
         <!-- common support module -->
         <module>plugin-rdbms-util</module>
